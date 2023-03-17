@@ -16,6 +16,7 @@
 		D0C750D529C01C3900D96226 /* DemoUIPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C750D429C01C3900D96226 /* DemoUIPageControlTests.swift */; };
 		D0C750DF29C01C3900D96226 /* DemoUIPageControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C750DE29C01C3900D96226 /* DemoUIPageControlUITests.swift */; };
 		D0C750E129C01C3900D96226 /* DemoUIPageControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C750E029C01C3900D96226 /* DemoUIPageControlUITestsLaunchTests.swift */; };
+		D0C750EE29C033C700D96226 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C750ED29C033C700D96226 /* CustomPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D0C750DA29C01C3900D96226 /* DemoUIPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUIPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C750DE29C01C3900D96226 /* DemoUIPageControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUIPageControlUITests.swift; sourceTree = "<group>"; };
 		D0C750E029C01C3900D96226 /* DemoUIPageControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUIPageControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C750ED29C033C700D96226 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D0C750C629C01C3900D96226 /* Assets.xcassets */,
 				D0C750C829C01C3900D96226 /* LaunchScreen.storyboard */,
 				D0C750CB29C01C3900D96226 /* Info.plist */,
+				D0C750ED29C033C700D96226 /* CustomPageControl.swift */,
 			);
 			path = DemoUIPageControl;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				D0C750C229C01C3800D96226 /* ViewController.swift in Sources */,
 				D0C750BE29C01C3800D96226 /* AppDelegate.swift in Sources */,
 				D0C750C029C01C3800D96226 /* SceneDelegate.swift in Sources */,
+				D0C750EE29C033C700D96226 /* CustomPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
